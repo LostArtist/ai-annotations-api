@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.aiannotation</groupId>
-    <artifactId>ai-snippet-api</artifactId>
+    <artifactId>snippetapi</artifactId>
     <version>1.0.0</version>
 
-    <name>ai-snippet-api</name>
+    <name>snippetapi</name>
     <description>Reusable annotation library for AI snippet extraction</description>
 
     <properties>
