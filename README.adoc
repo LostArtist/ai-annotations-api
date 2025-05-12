@@ -15,7 +15,7 @@ This API contains annotations for extracting code method body or fields
 
 == User guide
 
-To start using this API inject the maven dependency into the pom.xml file.
+To start using this API install the project and inject the maven dependency into the pom.xml file.
 
 === Example
 
