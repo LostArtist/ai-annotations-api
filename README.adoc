@@ -19,7 +19,7 @@ To start using this API inject the maven dependency into the pom.xml file.
 === Example
 
 ```
-AiSnippet(question = "What does this method do?", answer = "It returns endpoint")
+AiSnippet(question = "What does this method do?", answer = "It returns an endpoint")
 public Endpoint getEndpoint() {
     return endpoint;
 }
