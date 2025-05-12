@@ -4,13 +4,14 @@ This API contains annotations for extracting code method body or fields
 
 == Maven dependency
 
-```
+[source,xml]
+----
 <dependency>
     <groupId>org.aiannotation</groupId>
     <artifactId>snippetapi</artifactId>
     <version>1.0.0</version>
 </dependency>
-```
+----
 
 == User guide
 
@@ -18,9 +19,8 @@ To start using this API inject the maven dependency into the pom.xml file.
 
 === Example
 
-```
+[source,java]
 AiSnippet(question = "What does this method do?", answer = "It returns an endpoint")
 public Endpoint getEndpoint() {
     return endpoint;
 }
-```
