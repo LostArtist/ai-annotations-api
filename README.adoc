@@ -7,7 +7,7 @@ This API contains annotations for extracting code method body or fields
 [source,xml]
 ----
 <dependency>
-    <groupId>org.aiannotation</groupId>
+    <groupId>org.tabaqui</groupId>
     <artifactId>snippetapi</artifactId>
     <version>1.0.0</version>
 </dependency>

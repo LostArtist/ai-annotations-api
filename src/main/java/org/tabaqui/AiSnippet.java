@@ -1,4 +1,4 @@
-package org.aiannotation;
+package org.tabaqui;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
