@@ -8,7 +8,7 @@
     <artifactId>annotation-api</artifactId>
     <version>1.0.0</version>
 
-    <name>annotationapi</name>
+    <name>annotation-api</name>
     <description>Reusable annotation library for AI snippet extraction</description>
 
     <properties>
