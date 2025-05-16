@@ -7,15 +7,45 @@
     <groupId>org.tabaqui</groupId>
     <artifactId>annotation-api</artifactId>
     <version>1.0.0</version>
+    <packaging>jar</packaging>
 
-    <name>annotation-api</name>
+    <name>Annotation API</name>
     <description>Reusable annotation library for AI snippet extraction</description>
+    <url>https://github.com/LostArtist/annotation-api</url>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Nikita Konovalov</name>
+            <email>nikita.maybe.konovalov@gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:https://github.com/LostArtist/annotation-api.git</connection>
+        <developerConnection>scm:git:ssh://github.com:LostArtist/annotation-api.git</developerConnection>
+        <url>http://github.com/LostArtist/annotation-api.git/tree/master</url>
+    </scm>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/LostArtist/annotation-api</url>
+        </repository>
+    </distributionManagement>
 
     <build>
     <sourceDirectory>src/main/java</sourceDirectory>
