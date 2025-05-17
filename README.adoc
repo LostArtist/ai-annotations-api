@@ -8,19 +8,40 @@ This API contains annotations for extracting code method body or fields
 ----
 <dependency>
     <groupId>org.tabaqui</groupId>
-    <artifactId>snippetapi</artifactId>
-    <version>1.0.0</version>
+    <artifactId>annotation-api</artifactId>
+    <version>1.0.1</version>
 </dependency>
 ----
 
 == User guide
 
-To start using this API install the project and inject the maven dependency into the pom.xml file.
+To start using this API, add the repository and inject the maven dependency into the **pom.xml** file of the project where you want to use it:
 
-=== Example
+[source, xml]
+----
+<repositories>
+  <repository>
+    <id>github</id>
+    <url>https://maven.pkg.github.com/LostArtist/annotation-api</url>
+  </repository>
+</repositories>
+
+<dependencies>
+  <dependency>
+    <groupId>org.tabaqui</groupId>
+    <artifactId>annotation-api</artifactId>
+    <version>1.0.1</version>
+  </dependency>
+</dependencies>
+----
+
+
+=== Example of using in the project:
 
 [source,java]
-AiSnippet(question = "What does this method do?", answer = "It returns an endpoint")
+----
+@AiSnippet(question = "What does this method do?", answer = "It returns an endpoint")
 public Endpoint getEndpoint() {
     return endpoint;
 }
+----
