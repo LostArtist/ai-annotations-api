@@ -9,7 +9,7 @@ This API contains annotations for extracting code method body or fields
 <dependency>
     <groupId>org.tabaqui</groupId>
     <artifactId>annotation-api</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.3</version>
 </dependency>
 ----
 
@@ -30,7 +30,7 @@ To start using this API, add the repository and inject the maven dependency into
   <dependency>
     <groupId>org.tabaqui</groupId>
     <artifactId>annotation-api</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.3</version>
   </dependency>
 </dependencies>
 ----
